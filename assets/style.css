@@ -1,5 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+  max-width: 327px;
+  width: 100%;
+}
+
+.header {
+  background-color: #fff8f2;
+  min-height: 589px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo {
   width: 135px;
-  height: 30.24px;
+  height: 31px;
   object-fit: contain;
+}
+
+.burger {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger div {
+  width: 30px;
+  height: 4px;
+  background: #ff553e;
+  border-radius: 4px;
+}
+
+.navigation {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent {
+  margin-top: 81px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContent h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 160%;
+  max-width: 300px;
+}
+
+.headerContent p {
+  margin-top: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  opacity: 0.8;
+  color: #40201e;
+}
+
+.headerContent button {
+  margin-top: 40px;
+  padding: 24px 40px;
+  width: 240px;
+  height: 76px;
+  background: #ff553e;
+  border-radius: 40px;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.facts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  height: auto;
+  align-items: center;
+}
+
+.factsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.factsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 110px;
+  justify-content: space-between;
+}
+
+.bigNum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.littleNum {
+  margin-top: 28px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #404040;
+  opacity: 0.6;
+}
+
+.factsList .hr {
+  width: 180px;
+  height: 1px;
+  background: #1e0c3e;
+  opacity: 0.2;
+}
+
+.factsList :nth-child(6) {
+  display: none;
+}
+
+.featuresBlock {
+  padding-top: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 343px;
+}
+
+.rocket {
+  position: absolute;
+  left: 808px;
+  top: -23px;
+}
+
+.featuresBlock h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #18063c;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 24px;
+  line-height: 150%;
+  max-width: 310px;
+}
+
+.features-block h2 span {
+  background: url("../assets/img/Shape.png") no-repeat;
+  background-position: 9px 30px;
+}
+
+.featuresContent {
+  margin-top: 14px;
+  max-width: 327px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #666666;
+  text-align: center;
+}
+
+.cardBlock {
+  max-width: 343px;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardItem {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+  padding: 20px;
+  gap: 18px;
+}
+
+.cardItemText {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.imgWrapper {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 14px 20px 48px rgba(25, 15, 44, 0.06);
+  border-radius: 15px;
+}
+
+.imgWrapper img {
+  max-width: 33px;
+  max-height: 32px;
+}
+
+.cardItemText p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 90%;
+}
+
+.item1 {
+  background: #70d0dc;
+}
+.item2 {
+  background: #7562e0;
+}
+.item3 {
+  background: #fa865f;
 }
