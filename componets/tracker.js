@@ -44,7 +44,7 @@ const imageList = createElement("div", "imgList");
   imageList.append(img);
 });
 
-container.append(trackerInfo, imageList);
-tracker.append(container, chart);
+container.append(trackerInfo, imageList, chart);
+tracker.append(container);
 
 export default tracker;

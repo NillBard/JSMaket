@@ -26,7 +26,7 @@ const storeButton = createElement("div", "storeButton");
   storeButton.append(item);
 });
 
-storeContainer.append(storeHeader, storeContent, storeButton);
+storeContainer.append(storeHeader, storeContent, storeButton, hand);
 
-store.append(storeContainer, hand);
+store.append(storeContainer);
 export default store;

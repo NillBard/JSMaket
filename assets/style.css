@@ -183,7 +183,6 @@
 
 .featuresBlock {
   padding-top: 32px;
-  position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -191,6 +190,7 @@
 }
 
 .featuresContainer {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,8 +202,8 @@
   position: absolute;
   width: 100px;
   height: 92px;
-  top: -55px;
-  left: -24px;
+  top: -80px;
+  left: -45px;
 }
 
 .featuresBlock h2 {
@@ -395,7 +395,6 @@
 }
 
 .tracker {
-  position: relative;
   padding: 48px 0;
   width: 100%;
   display: flex;
@@ -404,6 +403,7 @@
 }
 
 .trackerContainer {
+  position: relative;
   max-width: 327px;
   width: 90%;
   display: flex;
@@ -413,10 +413,10 @@
 
 .chart {
   position: absolute;
-  top: -30px;
+  top: -78px;
   width: 79px;
   height: 104px;
-  right: 0;
+  right: -24px;
 }
 
 .trackerInfo {
@@ -918,7 +918,6 @@
 
 .store {
   padding: 48px 0;
-  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -926,6 +925,8 @@
 }
 
 .storeContainer {
+  position: relative;
+
   width: 90%;
   max-width: 327px;
   display: flex;
@@ -947,8 +948,8 @@
   position: absolute;
   width: 119px;
   height: 60px;
-  right: 0;
-  top: 226px;
+  right: -24px;
+  top: 178px;
 }
 
 .storeContent {
