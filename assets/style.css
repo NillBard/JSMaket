@@ -10,7 +10,7 @@
 
 .container {
   max-width: 327px;
-  width: 100%;
+  width: 90%;
 }
 
 .header {
@@ -258,4 +258,682 @@
 }
 .item3 {
   background: #fa865f;
+}
+
+.analytics {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.analyticsContainer {
+  width: 90%;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+}
+
+.bigPicture {
+  width: 100%;
+  margin-left: -50px;
+  object-fit: cover;
+}
+
+.contentWrapper {
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.analyticsHeader {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #18063c;
+}
+
+.analyticsContent {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #404040;
+  opacity: 0.8;
+}
+
+.analyticsList {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.analyticsItem {
+  display: flex;
+  gap: 18px;
+}
+
+.analyticsItem img {
+  width: 56px;
+  height: 56px;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemContent h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+
+.itemContent p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #404040;
+  opacity: 0.8;
+}
+
+.tracker {
+  padding: 48px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f8fefe;
+}
+
+.trackerContainer {
+  max-width: 327px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.trackerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.trackerInfo h2 {
+  max-width: 260px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #18063c;
+}
+
+.infoList {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.trackerItem {
+  display: flex;
+  gap: 21px;
+}
+
+.trackerItem img {
+  width: 56px;
+  height: 56px;
+}
+
+.trackerItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trackerItemContent h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+}
+
+.trackerItemContent p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #404040;
+  opacity: 0.8;
+}
+
+.imgList {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 45px;
+}
+
+.imgList :first-child {
+  width: 268px;
+  height: 271px;
+  box-shadow: 0px 32px 54px 0px #414a550d;
+}
+
+.imgList :last-child {
+  width: 268px;
+  height: 306px;
+  object-fit: cover;
+  box-shadow: 0px 32px 54px 0px #414a550d;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.priceContainer {
+  width: 90%;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.priceContainer h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #18063c;
+}
+
+.priceContainer p {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  color: #404040;
+  opacity: 0.8;
+}
+
+.switchBlock {
+  margin-top: 17px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.switchBlock span {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #404040;
+}
+
+.switchButton {
+  width: 55px;
+  height: 26px;
+  background: rgba(255, 85, 62, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 6px;
+}
+
+.switchButton div {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: #ff553e;
+}
+
+.priceList {
+  width: 100%;
+  gap: 28px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.priceItem {
+  width: 100%;
+  padding: 36px 26px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.priceItemContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.priceTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.priceTextWrapper h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #404040;
+  margin-bottom: 29px;
+}
+
+.priceTextWrapper p {
+  margin-top: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: start;
+}
+
+.priceTextWrapper :last-child {
+  margin-top: 16px;
+}
+
+.priceValue {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #404040;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.priceValue :first-child {
+  margin-right: 3px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #404040;
+  opacity: 0.7;
+  height: 100%;
+}
+
+.priceValue :last-child {
+  margin-left: 6px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #404040;
+  opacity: 0.4;
+  height: 100%;
+}
+
+.priceItem button {
+  margin-top: 30px;
+  border-radius: 40px;
+  padding: 24px 40px;
+  border: none;
+  background: #ff553e;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.priceItem.premium button {
+  background: #ffffff;
+  color: #ff553e;
+}
+
+.priceItem.premium .priceValue {
+  color: #fff8f2;
+  flex-wrap: wrap;
+}
+
+.priceItem.premium h3 {
+  color: white;
+}
+
+.priceItem.premium p {
+  color: white;
+  opacity: 0.8;
+  max-width: 145px;
+}
+
+.priceItem.premium span {
+  color: #fff8f2;
+  opacity: 0.8;
+}
+
+.priceItem.free p {
+  color: #ff553e;
+  opacity: 0.8;
+}
+
+.free {
+  border: 1px solid #ff553e;
+}
+
+.premium {
+  background: #ff553e;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.partnersContainer {
+  width: 90%;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.partnersInfo h2 {
+  max-width: 230px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #332c5c;
+}
+
+.partnersInfo p {
+  margin-top: 18px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #1c0e0d;
+  opacity: 0.8;
+}
+
+.partnersInfo button {
+  margin-top: 28px;
+  width: 184px;
+  height: 76px;
+  color: #ff553e;
+  border: 1px solid #ff553e;
+  background-color: white;
+  border-radius: 40px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.partnersList {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.partnersItem {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnersItem img {
+  width: 64px;
+  height: 64px;
+}
+
+.brand1 {
+  background: rgba(65, 165, 238, 0.1);
+  border-radius: 10px;
+}
+
+.brand2 {
+  border-radius: 15px;
+  background: rgba(243, 83, 37, 0.1);
+}
+
+.brand3 {
+  background: rgba(0, 172, 71, 0.1);
+  border-radius: 15px;
+}
+
+.brand4 {
+  background: rgba(66, 133, 244, 0.1);
+  border-radius: 20px;
+}
+
+.brand4 img {
+  width: 74px;
+  height: 64px;
+}
+
+.comment {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.commentContainer {
+  width: 90%;
+  max-width: 327px;
+}
+
+.commentHeader {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #332c5c;
+}
+
+.commentContent {
+  margin-top: 30px;
+}
+
+.avatar {
+  width: 170px;
+  height: 144px;
+  background: #fff8f2;
+  border-radius: 40px;
+}
+
+.commentContentText {
+  margin-top: 30px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #1c0e0d;
+  opacity: 0.8;
+}
+
+.personInfo {
+  margin-top: 28px;
+}
+
+.personName {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #38363c;
+}
+
+.personPost {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #38363c;
+  opacity: 0.7;
+}
+
+.commentSlider {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+
+.commentSlider div {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 85, 62, 0.2);
+  border-radius: 50%;
+}
+
+.commentSlider :first-child {
+  width: 36px;
+  height: 10px;
+  background: #ff553e;
+  border-radius: 7px;
+}
+
+.store {
+  padding: 48px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff8f2;
+}
+
+.storeContainer {
+  width: 90%;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+}
+
+.storeHeader {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #332c5c;
+}
+
+.storeContent {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #404040;
+  opacity: 0.8;
+}
+
+.storeButton {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.storeButton button {
+  padding: 24px 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.apple {
+  background: #ff553e;
+  width: 180px;
+  border: none;
+}
+
+.google {
+  border: 1px solid #ff553e;
+  border-radius: 40px;
+  background: none;
+  width: 196px;
+}
+
+footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer {
+  width: 90%;
+  max-width: 327px;
+}
+
+.social {
+  margin-top: 46px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.footerContainer ul {
+  list-style: none;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1c0e0d;
+}
+
+.privacy {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  opacity: 0.5;
+}
+
+.footerLogo {
+  width: 134px;
+  height: 30px;
 }
