@@ -1,4 +1,4 @@
-import { createElement } from "../create.js";
+import { createElement, createImage } from "../create.js";
 
 const comment = createElement("section", "comment");
 const container = createElement("div", "commentContainer");
@@ -7,6 +7,10 @@ const commentHeader = createElement(
   "commentHeader",
   "What our client says"
 );
+const like = createImage("../assets/img/like.png", "like");
+const chat = createImage("../assets/img/chat.png", "chat");
+const line = createImage("../assets/img/comment-line.png", "commentLine");
+
 const commentContent = createElement("div", "commentContent");
 const avatar = createElement("div", "avatar");
 const commentContentText = createElement(
@@ -24,6 +28,6 @@ for (let index = 0; index < 4; index++) {
 personInfo.append(personName, personPost, commentSlider);
 commentContent.append(avatar, commentContentText, personInfo);
 
-container.append(commentHeader, commentContent);
+container.append(commentHeader, commentContent, like, chat, line);
 comment.append(container);
 export default comment;

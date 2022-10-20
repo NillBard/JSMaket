@@ -4,14 +4,13 @@ const features = createElement("section", "featuresBlock");
 const container = createElement("div", "featuresContainer");
 const span = createElement("span", "", "features");
 const h2 = createElement("h2", "", `Some excellent `);
-h2.append(span);
-h2.innerHTML += " for you";
+h2.append(span, " for you");
+const rocket = createImage("../assets/img/3d_rocket.png", "rocket");
 const p = createElement(
   "p",
   "featuresContent",
   "An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula "
 );
-
 const cardBlock = createElement("div", "cardBlock");
 [
   {
@@ -43,7 +42,7 @@ const cardBlock = createElement("div", "cardBlock");
   cardBlock.append(item);
 });
 
-container.append(h2, p, cardBlock);
+container.append(h2, p, cardBlock, rocket);
 
 features.append(container);
 

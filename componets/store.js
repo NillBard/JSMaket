@@ -3,6 +3,7 @@ import { createElement, createImage } from "../create.js";
 const store = createElement("section", "store");
 const storeContainer = createElement("div", "storeContainer");
 const storeHeader = createElement("h2", "storeHeader", "Get it now for free");
+const hand = createImage("../assets/img/right-hand.png", "hand");
 const storeContent = createElement(
   "p",
   "storeContent",
@@ -27,5 +28,5 @@ const storeButton = createElement("div", "storeButton");
 
 storeContainer.append(storeHeader, storeContent, storeButton);
 
-store.append(storeContainer);
+store.append(storeContainer, hand);
 export default store;

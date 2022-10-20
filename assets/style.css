@@ -11,6 +11,7 @@
 .container {
   max-width: 327px;
   width: 90%;
+  position: relative;
 }
 
 .header {
@@ -53,6 +54,7 @@
 }
 
 .headerContent {
+  position: relative;
   margin-top: 81px;
   display: flex;
   flex-direction: column;
@@ -64,6 +66,12 @@
   font-size: 28px;
   line-height: 160%;
   max-width: 300px;
+}
+
+.headerContent span {
+  padding-bottom: 5px;
+  background: url("./img/Shape.png") 0 17px no-repeat;
+  background-size: contain;
 }
 
 .headerContent p {
@@ -89,6 +97,33 @@
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
+}
+
+.vector1 {
+  position: absolute;
+  top: 0;
+  right: -24px;
+  top: 110px;
+}
+
+.vector2 {
+  position: absolute;
+  top: 463px;
+  right: 13px;
+}
+
+.clock {
+  position: absolute;
+  width: 65px;
+  height: 76px;
+  top: -35px;
+  left: 220px;
+}
+
+.rec {
+  position: absolute;
+  left: -24px;
+  top: 504px;
 }
 
 .facts {
@@ -165,8 +200,10 @@
 
 .rocket {
   position: absolute;
-  left: 808px;
-  top: -23px;
+  width: 100px;
+  height: 92px;
+  top: -55px;
+  left: -24px;
 }
 
 .featuresBlock h2 {
@@ -194,6 +231,12 @@
   line-height: 36px;
   color: #666666;
   text-align: center;
+}
+
+.featuresContainer span {
+  padding-bottom: 5px;
+  background: url("./img/min-light-shape.png") 4px 15px no-repeat;
+  background-size: 102px 20px;
 }
 
 .cardBlock {
@@ -290,11 +333,15 @@
 }
 
 .analyticsHeader {
+  padding-left: 5px;
+  margin-left: -5px;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
   color: #18063c;
+  background: url("./img/min-shape-light.png") 0 15px no-repeat;
+  background-size: 116px 23px;
 }
 
 .analyticsContent {
@@ -348,6 +395,7 @@
 }
 
 .tracker {
+  position: relative;
   padding: 48px 0;
   width: 100%;
   display: flex;
@@ -363,9 +411,22 @@
   gap: 48px;
 }
 
+.chart {
+  position: absolute;
+  top: -30px;
+  width: 79px;
+  height: 104px;
+  right: 0;
+}
+
 .trackerInfo {
   display: flex;
   flex-direction: column;
+}
+
+.trackerInfo span {
+  background: url("./img/min-light-shape.png") 7px 13px no-repeat;
+  background-size: 78px 16px;
 }
 
 .trackerInfo h2 {
@@ -453,11 +514,17 @@
 }
 
 .priceContainer h2 {
+  margin-right: -15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  text-align: center;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
   color: #18063c;
+  background: url("./img/min-light-shape.png") 195px 10px no-repeat;
+  background-size: 137px 27px;
 }
 
 .priceContainer p {
@@ -663,6 +730,8 @@
   line-height: 140%;
   text-transform: capitalize;
   color: #332c5c;
+  background-size: 84px 17px;
+  background: url("./img/min-light-shape.png") 107px 15px no-repeat;
 }
 
 .partnersInfo p {
@@ -739,11 +808,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .commentContainer {
   width: 90%;
   max-width: 327px;
+  position: relative;
 }
 
 .commentHeader {
@@ -753,6 +824,8 @@
   line-height: 140%;
   text-transform: capitalize;
   color: #332c5c;
+  background: url("./img/min-shape-light.png") 113px 10px no-repeat;
+  background-size: 117px 23px;
 }
 
 .commentContent {
@@ -820,8 +893,32 @@
   border-radius: 7px;
 }
 
+.like {
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  width: 62px;
+  height: 63px;
+}
+.commentLine {
+  position: absolute;
+  top: 105px;
+  left: 210px;
+  width: 62px;
+  height: 56px;
+}
+
+.chat {
+  position: absolute;
+  width: 79px;
+  height: 81px;
+  top: 135px;
+  left: 287px;
+}
+
 .store {
   padding: 48px 0;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -842,6 +939,16 @@
   line-height: 140%;
   text-transform: capitalize;
   color: #332c5c;
+  background: url("./img/min-light-shape.png") 162px 15px no-repeat;
+  background-size: 70px 14px;
+}
+
+.hand {
+  position: absolute;
+  width: 119px;
+  height: 60px;
+  right: 0;
+  top: 226px;
 }
 
 .storeContent {

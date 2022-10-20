@@ -3,7 +3,7 @@ import { createElement, createImage } from "../create.js";
 const tracker = createElement("section", "tracker");
 const container = createElement("div", "trackerContainer");
 const trackerInfo = createElement("div", "trackerInfo");
-
+const chart = createImage("../assets/img/chart.png", "chart");
 const h2 = createElement("h2", "", "How our ");
 const span = createElement("span", "", "Tracker ");
 h2.append(span, "work for you");
@@ -45,6 +45,6 @@ const imageList = createElement("div", "imgList");
 });
 
 container.append(trackerInfo, imageList);
-tracker.append(container);
+tracker.append(container, chart);
 
 export default tracker;

@@ -2,9 +2,7 @@ import { createElement } from "../create.js";
 
 const price = createElement("section", "price");
 const container = createElement("div", "priceContainer");
-const h2 = createElement("h2", "", "Flexible work, ");
-const span = createElement("span", "", "Simple Price");
-h2.append(span);
+const h2 = createElement("h2", "", "Flexible work, Simple Price");
 const p = createElement("p", "", "Growth your business with using us");
 const switchBlock = createElement("div", "switchBlock");
 const switchSpan1 = createElement("span", "", "Monthly");
