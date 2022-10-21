@@ -154,7 +154,7 @@ window.addEventListener("DOMContentLoaded", () => {
       "analyticsContent",
       "An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula "
     );
-    const analyticsList = createElement("div", "analyticsList");
+    const analyticsList = createElement("ul", "analyticsList");
     [
       {
         title: "Automatic event tracking",
@@ -182,7 +182,9 @@ window.addEventListener("DOMContentLoaded", () => {
       const p = createElement("p", "", `${element.content}`);
       itemContent.append(h4, p);
       item.append(img, itemContent);
-      analyticsList.append(item);
+      const itemWrapper = createElement("li");
+      itemWrapper.append(item);
+      analyticsList.append(itemWrapper);
     });
 
     contentWrapper.append(h2, p, analyticsList);
@@ -200,8 +202,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const h2 = createElement("h2", "", "How our ");
     const span = createElement("span", "", "Tracker ");
     h2.append(span, "work for you");
-
-    const infoList = createElement("div", "infoList");
+    const infoList = createElement("ul", "infoList");
     [
       {
         img: "./assets/img/green-icon.png",
@@ -219,7 +220,7 @@ window.addEventListener("DOMContentLoaded", () => {
         img: "./assets/img/blue-icon.png",
         title: "Budget controlling",
         content:
-          "Time Tracking is never been easier. Just let the stopwatch run",
+          "Time Tracking is never been easier. Just let the stopwatch run ",
       },
     ].forEach((element) => {
       const item = createElement("div", "trackerItem");
@@ -229,7 +230,9 @@ window.addEventListener("DOMContentLoaded", () => {
       const p = createElement("p", "", `${element.content}`);
       itemContent.append(h4, p);
       item.append(img, itemContent);
-      infoList.append(item);
+      const itemWrapper = createElement("li");
+      itemWrapper.append(item);
+      infoList.append(itemWrapper);
     });
 
     trackerInfo.append(h2, infoList);
@@ -434,9 +437,13 @@ window.addEventListener("DOMContentLoaded", () => {
       social.append(createImage(element));
     });
 
-    ["Features", "Pricing", "Contact", "Demos"].forEach((element) =>
-      navList.append(createElement("li", "", element))
-    );
+    ["Features", "Pricing", "Contact", "Demos"].forEach((element) => {
+      const item = createElement("a", "", element);
+      item.href = "#";
+      const itemWrapper = createElement("li");
+      itemWrapper.append(item);
+      navList.append(itemWrapper);
+    });
     [
       "Terms & condition",
       "Privacy policy",
